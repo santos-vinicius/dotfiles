@@ -1,0 +1,30 @@
+// settings.json | 15.03.2024 | Vinicius Santos - santosviniv@gmail.com
+
+{
+  // General 
+  "symbols.hidesExplorerArrows": false,
+   
+  // Workbench 
+  "workbench.colorTheme": "Bearded Theme HC Ebony",
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.labelFormat": "short",
+
+   
+  // Editor
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 1.5,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+
+  // Explorer 
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.external.windowsExec": "wt",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cursorStyle": "line",
+  "files.associations": {
+      "*.css": "css"
+  },
+}
