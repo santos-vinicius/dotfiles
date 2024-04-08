@@ -9,7 +9,7 @@ $git_metrics\
 $fill\
 $nodejs\
 $phyton\
-$cmd_duration $jobs $time\
+$cmd_duration $jobs\
 $line_break\
 $character"""
 
@@ -77,6 +77,11 @@ symbol = "🦀"
 [python]
 symbol = "🐍"
 python_binary = "python3"
+
+[php]
+format = 'via [$symbol($version )]($style)'
+symbol = '🐘'
+detect_extensions = ['php']
 
 [time]
 disabled = false
