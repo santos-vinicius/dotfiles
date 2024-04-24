@@ -1,4 +1,4 @@
-// settings.json | 21.04.2024 | Vinicius Santos - santosviniv@gmail.com
+// settings.json | 23.04.2024 | Vinicius Santos - santosviniv@gmail.com
 
 {
     // General 
@@ -6,7 +6,6 @@
     "workbench.iconTheme": "symbols",
     "workbench.editor.labelFormat": "short",
     "workbench.colorTheme": "Bluloco Dark Italic",
-
      
     // Editor
     "editor.fontFamily": "JetBrains Mono",
@@ -21,6 +20,7 @@
     // Explorer 
     "explorer.compactFolders": false,
     "terminal.integrated.fontFamily": "FiraCode Nerd Font", // "JetBrains Mono"
+    "terminal.integrated.fontSize": 12,
     "terminal.external.windowsExec": "wt",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.cursorStyle": "line",
@@ -28,4 +28,16 @@
         "*.css": "css"
     },
 
+    // VSCORD -  Discord Rich Presence extension (https://marketplace.visualstudio.com/items?itemName=LeonardSSH.vscord)
+    "vscord.status.showElapsedTime": false,
+    "vscord.status.details.enabled": false,
+    "vscord.status.details.idle.enabled": false,
+    "vscord.status.problems.enabled": false,
+    "vscord.status.state.debugging.enabled": false,
+    "vscord.behaviour.prioritizeLanguagesOverExtensions": true,
+    "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+    "vscord.status.idle.resetElapsedTime": true,
+    "vscord.status.buttons.button1.git.active.enabled": false,
+    "vscord.status.buttons.button1.git.idle.enabled": false,
+    "vscord.status.buttons.button1.git.inactive.enabled": false,
 }
